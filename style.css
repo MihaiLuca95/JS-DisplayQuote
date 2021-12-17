@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6e6e6e;
+}
+
+.container {
+    background-color: azure;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    box-shadow: 5px 10px 18px #2e2c2c;
+    border-radius: 5px;
+    
+}
+
+.quote {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quote__text {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.quote__author {
+    font-size: 20px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 40px;
+    border-radius: 100px;
+    transition: all .2s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(#000, .2);
+}
